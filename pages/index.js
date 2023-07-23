@@ -94,6 +94,7 @@ export default function Home() {
         )}
         <button
           className="mt-4 px-4 py-2 bg-blue-500 text-white rounded"
+          style={{ background: 'purple', color: 'white' }}
           onClick={() => setAdditionalContent(!additionalContent)}
         >
           {additionalContent ? 'Hide List' : 'Show List'}
